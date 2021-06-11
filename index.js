@@ -1,6 +1,6 @@
-const commander = require('commander');
+const zad14 = require('./src/zad14');
 
-commander.addCommand();
+
 
 /*const {exec} = require('child_process');
 const path = require('path');
@@ -24,3 +24,7 @@ const cp = exec(`type ${filePath}`);
 
 cp.stdout.on('data', data => console.log(data));
 */
+
+module.exports = {
+    ...zad14,
+};
