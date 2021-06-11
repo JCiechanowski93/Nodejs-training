@@ -1,0 +1,18 @@
+[1, 2, 7, 20, 56, 22]
+
+Stwórz projekt i zainstaluj w nim 3 paczki:
+commander
+lodash w wersji n
+chalk
+Zainstaluj typy tam gdzie to możliwe do tych paczek.
+
+Zadanie to wykonaj na następujące sposoby i zobacz czy jest różnica w działaniu:
+Najpierw za pomocą npm.
+Następnie za pomocą Yarna.
+Następnie usuń wszystko w projekcie (node_modules), zostawiając sam package.json i lockfile. Zainstaluj wszystko automatycznie z package.json za pomocą npm.
+Ponownie usuń wszystko w projekcie (node_modules), zostawiając sam package.json i lockfile. Zainstaluj wszystko automatycznie z lockfile/package.json za pomocą Yarna.
+* Jeżeli chcesz, możesz również spróbować użyć pnpm (instaluje się go za pomocą npm install -g pnpm, a używa tak: https://pnpm.io/pnpm-cli ).
+
+Czy widzisz różnicę w działaniu poszczególnych sposobów?
+
+Stwórz plik index.js i zaimportuj tam jedną z tych paczek - np. const commander = require('commander'); - sprawdź czy edytor podpowiada Ci dokumentację na bazie typów.
